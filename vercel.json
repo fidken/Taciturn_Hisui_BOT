@@ -6,7 +6,7 @@
     { "src": "index.html"}
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/script.js" },
+    // { "src": "/(.*)", "dest": "/script.js" },
     { "src": "/(.*)", "dest": "/index.html"}
   ]
 }
