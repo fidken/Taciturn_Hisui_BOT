@@ -2,8 +2,9 @@
   "version": 2,
   "name": "name-of-your-vercel-app",
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "script.js", "use": "@vercel/node" }
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.py", "use": "@vercel/python" },
+    { "src": "*.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/script.js" },
