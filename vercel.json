@@ -6,7 +6,8 @@
     { "src": "script.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/script.js" }
+    { "src": "/(.*)", "dest": "/script.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ],
   "files": [
     "index.html"
